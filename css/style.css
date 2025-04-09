@@ -1,0 +1,268 @@
+/* YOUR CUSTOM STYLES */
+@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Hind');
+body {
+  padding-top: 10px;
+  background: #fff;
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  color: #64686d;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+
+/* top 
+.blurred-bg{
+
+	background-image:url("../img/background.jpg");
+	background-repeat:no-repeat;
+	@include background-size(cover);
+	background-attachment: fixed;
+   
+	&.tinted{
+		@include background-image(linear-gradient(0deg, rgba(255,255,255,.2),rgba(255,255,255,.2)),url("../img/background.jpg"));
+	}
+	&.shaded{
+		@include background-image(linear-gradient(0deg, rgba(0,0,0,.2),rgba(0,0,0,.2)),url("../img/background.jpg"));
+	}
+} */
+
+.jumbotron{
+    background: url('../img/back1.jpg') no-repeat;
+    height: auto;
+    color: aliceblue ;
+}
+
+/*------------------------------------------------------
+	Portfolio Styles 
+--------------------------------------------------------*/
+#portfolio {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-top: 50px;
+  background: transparent;
+}
+#portfolio .title-section h2 {
+  color: #3c0a0a;
+}
+#portfolio .portfolio-thumb {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0 100px rgba(21, 2, 5, 0.47);
+}
+#portfolio .portfolio-thumb img {
+  width: 100%;
+  height: auto;
+    
+  
+}
+#portfolio .portfolio-thumb .overlay {
+  opacity: 0;
+  visibility: visible;
+  background: rgba(163, 68, 10, 0.82);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#portfolio .portfolio-thumb .overlay .inner {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+#portfolio .portfolio-thumb .overlay .inner h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#portfolio .portfolio-thumb .overlay .inner h4 a {
+  color: white;
+}
+#portfolio .portfolio-thumb .overlay .inner span {
+  font-weight: 300;
+  color: white;
+}
+#portfolio .portfolio-thumb:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.prize img{
+    margin-top: 50px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.prize p{
+    margin-top: 50px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.box p{
+    margin-top: 50px;
+    margin: 5px;
+    padding: 2px;
+}
+
+/* !-- new css -- */
+
+#contact .social {
+    margin: 0px auto 40px auto;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+#contact .social li {
+    margin-left: 0;
+    width: 25%;
+}
+#contact .social a {
+    margin: 50px auto 4px auto;
+    background-color: #7c2007;
+    border-radius: 10px;
+    padding-top: 15px;
+    font-size: 40px;
+    line-height: 40px;
+    transition: .5s;
+    display: block;
+    height: 70px;
+    color: #7c2007;
+    width: 70px;
+}
+#contact .social a:hover {
+    transform: rotate(360deg);
+    color: #223741;
+}
+#contact .social .social-facebook { background: #4a6fb5;}
+#contact .social .social-twitter { background: #28a9e0;}
+#contact .social .social-youtube { background: #f86d70;}
+#contact .social .social-linkedin { background: #cab9a9;}
+
+
+/* !-- well -- */
+
+/* TEMPLATE STYLES */
+
+.main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url("img/image.jpg") no-repeat center center; 
+   
+    background-size: cover;
+    box-shadow: 0 0 100px #3F0C1F;
+}
+
+/* navigation */
+
+.navbar{
+    background-color: transparent;
+}
+
+/*Developer*/
+
+
+
+/*container*/
+
+.containerclass{
+    
+    width: auto;
+    height: auto;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+        
+}
+
+
+
+/*Parallax section*/
+#section-1 {
+    z-index: 1;
+    color: #fff;
+    height: 100vh;
+}
+#section-1 .row {
+    position: fixed;
+}
+
+/*Section with dummy content*/
+#section-2 {
+    z-index: 2;
+    position: relative;
+    background: #fff;
+    width: 100%;
+}
+
+#abc{
+    background-color:#440202;
+    color: aliceblue;
+}
+
+#form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #7c2007;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0 0 100px #3F0C1F;
+}
+
+.label-text{
+    color: white;
+}
+
+p{
+    font-size: 18px;
+}
+
+#navbarNav1{
+    float: right;
+}
+
+#text{
+    background: url('../img/b.jpg') no-repeat;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media all and (min-width:0px) and (max-width:768px){
+    
+}
+
+#footer{
+    box-shadow: 0 0 100px #3F0C1F;
+    
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: #fff !important;
+}
+
+.text-muted{
+    color: #fff !important;
+}
